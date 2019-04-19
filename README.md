@@ -28,9 +28,13 @@ Why is tracking better than detection?
 
 1. Tracking is faster than detection - The reason is simple. When you are tracking an object that was detected in the previous frame, you know a lot about the appearance of the object. You also know the location in the previous frame and the direction and speed of its motion. So in the next frame, you can use all this information to predict the location of the object in the next frame and do a small search around the expected location of the object to accurately locate the object. A good tracking algorithm will use all information it has about the object up to that point while a detection algorithm always starts from scratch. A great example to understand this approach is whycon markers versus aruco markers. 
 Whycon marker is faster than aruco marker because whycon marker are tracked while aruco are detected.
-![alt text]()
+
+
+![alt text](https://github.com/sona-19/ObjectTrackers/blob/master/aruco.png)
 Aruco Marker
-![alt text]()
+
+
+![alt text](https://github.com/sona-19/ObjectTrackers/blob/master/whycon.png)
 Whycon marker
 
 
