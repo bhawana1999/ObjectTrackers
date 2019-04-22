@@ -41,3 +41,5 @@ Whycon marker
 <b>2. Tracking can help when detection fails:</b> If you are running a face detector on a video and the person’s face get’s occluded by an object, the face detector will most likely fail. A good tracking algorithm, on the other hand, will handle some level of occlusion.
 
 <b>3. Tracking preserves identity:</b> The output of object detection is an array of rectangles that contain the object. However, there is no identity attached to the object. For example, in the video below, a detector that detects red dots will output rectangles corresponding to all the dots it has detected in a frame. In the next frame, it will output another array of rectangles.
+
+
